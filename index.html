@@ -32,8 +32,64 @@
   </head>
   <body style="font-family: 'Manrope', sans-serif">
     <header class="container mx-auto px-4">
+      <!-- ===================  =====================nav bar======================================== -->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a class="text-[#FF4240]">Home</a></li>
+              <li>
+                <a>About</a>
+              </li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="text-2xl lg:text-4xl text-[#131318] font-extrabold"
+            >Hockey <span class="text-[#FF4240]">'</span> s</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-[#FF4240]">Home</a></li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <i
+            class="fa-solid fa-magnifying-glass pr-6 w-[24px] text-gray-400 hidden lg:flex"
+          ></i>
+          <a class="btn bg-[#FF4240] px-8 text-white">Button</a>
+        </div>
+      </div>
+
       <!-- ========================================carousel======================================== -->
-      <div class="carousel w-full my-24">
+      <div class="carousel w-full my-12">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="./Images/1.png" class="w-full" />
           <div
@@ -78,7 +134,7 @@
               style="--value: 87"
               role="progressbar"
             >
-              87%
+              <span class="text-black">87%</span>
             </div>
             <h3 class="text-xl font-semibold mb-4">Prayer Facility</h3>
             <p class="text-[##13131899]">
@@ -91,11 +147,11 @@
               style="--value: 95"
               role="progressbar"
             >
-              95%
+              <span class="text-black">95%</span>
             </div>
             <h3 class="text-xl font-semibold mb-4">Experienced Coach</h3>
             <p class="text-[##13131899]">
-              Amet consectetur. Condimentum dignissim adipiscing .
+              We have lots of Experienced coach in our institute .
             </p>
           </div>
           <div>
@@ -104,11 +160,11 @@
               style="--value: 90"
               role="progressbar"
             >
-              90%
+              <span class="text-black">90%</span>
             </div>
             <h3 class="text-xl font-semibold mb-4">Senior Player</h3>
             <p class="text-[##13131899]">
-              Amet consectetur. Condimentum dignissim adipiscing .
+              In our institute has more than 100 senior player.
             </p>
           </div>
           <div>
@@ -117,11 +173,11 @@
               style="--value: 80"
               role="progressbar"
             >
-              80%
+              <span class="text-black">80%</span>
             </div>
             <h3 class="text-xl font-semibold mb-4">Training Ground</h3>
             <p class="text-[##13131899]">
-              Amet consectetur. Condimentum dignissim adipiscing .
+              We provide a crued free training ground and some specialfeature.
             </p>
           </div>
         </div>
@@ -139,8 +195,9 @@
             <p
               class="font-bold text-[#13131899] max-w-[607px] text-center mx-auto"
             >
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-              turpis placerat dolor. Purus urna in sit nullam proin.
+              With ten men’s teams, six ladies teams, a mixed side, a range of
+              youth teams, various touring sides and Back to Hockey sessions,
+              Woking Hockey Club offers hockey to players of any ability.
             </p>
           </div>
         </div>
@@ -156,9 +213,9 @@
               <div class="max-w-md py-6 text-left text-white px-8">
                 <h1 class="mb-5 text-3xl font-bold">Junior Program</h1>
                 <p class="mb-5">
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                  assumenda excepturi exercitationem quasi. In deleniti eaque
-                  aut repudiandae et a id nisi.
+                  The Junior section aims to engage, challenge and inspire
+                  players of all abilities and for them to achieve the best of
+                  their ability or aspirations.
                 </p>
                 <button class="btn btn-error text-white">Register Now</button>
               </div>
@@ -177,9 +234,8 @@
               <div class="max-w-md py-6 text-left text-white px-8">
                 <h1 class="mb-5 text-3xl font-bold">Teenager Program</h1>
                 <p class="mb-5">
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                  assumenda excepturi exercitationem quasi. In deleniti eaque
-                  aut repudiandae et a id nisi.
+                  A friendly section catering for all standards and commitments,
+                  with 6 teams playing in competitive leagues.
                 </p>
                 <button class="btn btn-error text-white">Register Now</button>
               </div>
@@ -199,9 +255,8 @@
               <div class="max-w-md py-6 text-left text-white px-8">
                 <h1 class="mb-5 text-3xl font-bold">Professional Program</h1>
                 <p class="mb-5">
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                  assumenda excepturi exercitationem quasi. In deleniti eaque
-                  aut repudiandae et a id nisi.
+                  10 teams in competitive leagues and a three tier Vets
+                  structure with weekly competitive games.
                 </p>
                 <button class="btn btn-error text-white">Register Now</button>
               </div>
@@ -224,8 +279,8 @@
             <p
               class="font-bold text-[#13131899] max-w-[607px] text-center mx-auto"
             >
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-              turpis placerat dolor. Purus urna in sit nullam proin.
+              Check out new louching section which is e-commerce product
+              section. Check out them once
             </p>
           </div>
         </div>
@@ -258,10 +313,11 @@
                   </div>
                 </div>
                 <h2 class="text-xl text-black font-extrabold">
-                  World Cup Flags Football
+                  Football Jursey
                 </h2>
                 <p class="text-base font-bold text-gray-600">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                  Custom Sewing Football Jersey for Men/Women/Youth,Personalized
+                  Stitched Team Name Number Big Size
                 </p>
                 <div class="flex gap-5 flex-col lg:flex-row">
                   <h3 class="text-xl font-extrabold text-[#FF4240]">
@@ -303,7 +359,10 @@
                   World Cup Flags Football
                 </h2>
                 <p class="text-base font-bold text-gray-600">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                  Ornament Collection World Cup Brazil Banner FIFA Qatar Garden
+                  Flag Home Trophy Soccer Decorations Game Goal Football Wall
+                  Art Hanging Tapestry Small Outdoor Indoor Lawn Patio Yard
+                  Signs Gifts
                 </p>
                 <div class="flex gap-5 flex-col lg:flex-row">
                   <h3 class="text-xl font-extrabold text-[#FF4240]">
@@ -342,10 +401,10 @@
                   </div>
                 </div>
                 <h2 class="text-xl text-black font-extrabold">
-                  World Cup Flags Football
+                  Cap For Hockeys
                 </h2>
                 <p class="text-base font-bold text-gray-600">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                  Columbia PFG Mesh Canada Fish Flag Stretch-Fit Hat
                 </p>
                 <div class="flex gap-5 flex-col lg:flex-row">
                   <h3 class="text-xl font-extrabold text-[#FF4240]">
@@ -383,10 +442,10 @@
                   </div>
                 </div>
                 <h2 class="text-xl text-black font-extrabold">
-                  World Cup Flags Football
+                  World Cup ootball Jersey
                 </h2>
                 <p class="text-base font-bold text-gray-600">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                  Nike USA Away Men's World Cup Soccer Jersey 22/23
                 </p>
                 <div class="flex gap-5 flex-col lg:flex-row">
                   <h3 class="text-xl font-extrabold text-[#FF4240]">
@@ -425,10 +484,12 @@
                   </div>
                 </div>
                 <h2 class="text-xl text-black font-extrabold">
-                  World Cup Flags Football
+                  Hockeys Helmet
                 </h2>
                 <p class="text-base font-bold text-gray-600">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                  Franklin Sports NHL Team Logo Mini Hockey Goalie Mask with
+                  Case - Collectible Goalie Mask with Official NHL Logos and
+                  Colors
                 </p>
                 <div class="flex gap-5 flex-col lg:flex-row">
                   <h3 class="text-xl font-extrabold text-[#FF4240]">
@@ -467,10 +528,12 @@
                   </div>
                 </div>
                 <h2 class="text-xl text-black font-extrabold">
-                  World Cup Flags Football
+                  Hockeys worldcup football
                 </h2>
                 <p class="text-base font-bold text-gray-600">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                  Roll over image to zoom in Franklin Sports Junior/Youth
+                  Football - Grip-Rite 100 - Kids Junior Size - Durable Outdoor
+                  Rubber Football - Brown/White
                 </p>
                 <div class="flex gap-5 flex-col lg:flex-row">
                   <h3 class="text-xl font-extrabold text-[#FF4240]">
@@ -500,8 +563,8 @@
             <p
               class="font-bold text-[#13131899] max-w-[607px] text-center mx-auto"
             >
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-              turpis placerat dolor. Purus urna in sit nullam proin.
+              Quick checkout our most propuler question which we have been heard
+              some couples of year
             </p>
           </div>
         </div>
@@ -610,8 +673,8 @@
             <p
               class="font-bold text-[#13131899] max-w-[607px] text-center mx-auto"
             >
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-              turpis placerat dolor. Purus urna in sit nullam proin.
+              If you have any question or any debout about our services please
+              feel free to message us.
             </p>
           </div>
         </div>
@@ -711,8 +774,7 @@
         </div>
       </section>
     </main>
-      <!-- ========================================footer section======================================== -->
-
+    <!-- ========================================footer section======================================== -->
 
     <footer class="bg-[#131318] p-16 text-white">
       <div class="grid lg:col-span-4 lg:grid-cols-4 gap-6 container mx-auto">
@@ -720,15 +782,20 @@
           <div class="pb-6">
             <h2 class="font-bold text-xl pb-2">Get In Touch</h2>
             <p>
-              Dit amet consectetur. Condimentum adipiscing aliquam turpis
-              placerat dolor. Purus urna in sit nullam proin.
+              With ten men’s teams, six ladies teams, a mixed side, a range of
+              youth teams, various touring sides and Back to Hockey sessions,
+              Woking Hockey Club offers hockey to players of any ability.
             </p>
           </div>
-          <div class="flex gap-2 items-center justify-center  lg:items-start lg:justify-start">
+          <div
+            class="flex gap-2 items-center justify-center lg:items-start lg:justify-start"
+          >
             <img src="./Images/Frame.png" alt="" />
             <p>hockey@support.com</p>
           </div>
-          <div class="flex gap-2 pb-2 tems-center justify-center lg:items-start lg:justify-start">
+          <div
+            class="flex gap-2 pb-2 tems-center justify-center lg:items-start lg:justify-start"
+          >
             <img src="./Images/Frame (1).png" alt="" />
             <p>hockey@support.com</p>
           </div>
